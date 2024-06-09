@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li:hover .bg-arrow-hover {
+  background-position: bottom;
+}
+
+.bg-arrow-hover {
+  background-image: url('../resorces/images/arrow.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+li:active .bg-arrow-active {
+  background-position: bottom;
+}
+
+.bg-arrow-active {
+  background-image: url('../resorces/images/arrow.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
