@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Oliveyoung_Clone/static/css/main.92dacedb.css",
+    "main.js": "/Oliveyoung_Clone/static/js/main.02bf2059.js",
+    "static/media/NotoSansKR-Light.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Light.bfd5e19669525f2eaa2a.woff2",
+    "static/media/NotoSansKR-Bold.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Bold.d28b3ec1c3e8adb71498.woff2",
+    "static/media/NotoSansKR-Regular.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Regular.72a008fc542067ef7314.woff2",
+    "static/media/search.svg": "/Oliveyoung_Clone/static/media/search.3b0cb67bbeb482b10bba68e7baa815dc.svg",
+    "index.html": "/Oliveyoung_Clone/index.html",
+    "main.92dacedb.css.map": "/Oliveyoung_Clone/static/css/main.92dacedb.css.map",
+    "main.02bf2059.js.map": "/Oliveyoung_Clone/static/js/main.02bf2059.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92dacedb.css",
+    "static/js/main.02bf2059.js"
+  ]
+}
