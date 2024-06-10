@@ -1,7 +1,10 @@
 import '../styles/header.css';
 
-import React from 'react';
-import arrow from '../resorces/images/arrow.png';
+import React, { useState } from 'react';
+
+import LocationModal from './LocationModal';
+import SearchModal from './SearchModal';
+import StoreModal from './StoreModal';
 import dream from '../resorces/images/dreamIcon.png';
 import logo from '../resorces/images/logo.png';
 import search from '../resorces/images/search.svg';
@@ -9,6 +12,47 @@ import { useNavigate } from 'react-router-dom';
 
 function Header(props) {
   const navigate = useNavigate();
+  const [storeHover, setStoreHover] = useState(false);
+  const [locationHover, setLocationHover] = useState(false);
+  const [recentClick, setRecentClick] = useState(false);
+  const [searchClick, setSearchClick] = useState(false);
+
+  const chart = [
+    { searchWord: '틴트', prev: 'up' },
+    { searchWord: '생리대', prev: 'keep' },
+    { searchWord: '염색', prev: 'up' },
+    { searchWord: '괄사', prev: 'up' },
+    { searchWord: '힌스', prev: 'up' },
+    { searchWord: '선스틱', prev: 'up' },
+    { searchWord: '증정', prev: 'new' },
+    { searchWord: '핸드크림', prev: 'up' },
+    { searchWord: '수분크림', prev: 'down' },
+    { searchWord: '아이브로우', prev: 'up' },
+  ];
+
+  const handleLocationMouseOver = (e) => {
+    e.stopPropagation();
+    setLocationHover(true);
+  };
+
+  const handleLocationMouseOut = () => {
+    setLocationHover(false);
+  };
+
+  const handleStoreMouseOver = (e) => {
+    e.stopPropagation();
+    setStoreHover(true);
+  };
+
+  const handleStoreMouseOut = () => {
+    setStoreHover(false);
+  };
+
+  const handleRecentClick = () => {
+    setRecentClick(!recentClick);
+    setLocationHover(false);
+  };
+
   return (
     <div className="flex flex-row justify-center">
       <div className="">
@@ -37,20 +81,29 @@ function Header(props) {
               className="w-[340px] h-[38px] px-[14px] rounded-3xl border border-[#82DC28] outline-none custom-placeholder text-sm"
               type="text"
               placeholder="상품, 브랜드, 성분 검색"
+              onFocus={() => setSearchClick(true)}
             />
             <div className="absolute right-[15px] top-0 bottom-0 flex items-center hover:cursor-pointer">
-              <img className="w-[20px]" src={search} />
+              <img className="w-[20px]" src={search} alt="search" />
             </div>
+            <SearchModal searchClick={searchClick} chart={chart} setSearchClick={setSearchClick} />
           </div>
           <ul className="flex flex-row gap-8 text-sm">
-            <li className="text-[#e95294] flex flex-row items-center gap-1 hover:cursor-pointer hover:underline hover:underline-offset-[5px] decoration-2 decoration-black">
-              오늘드림 <img src={dream} alt="delivery" className="w-[22px]" />
+            <li className="text-[#e95294] flex flex-row items-center gap-1 hover:cursor-pointer hover:underline hover:underline-offset-[5px] decoration-2 decoration-black relative">
+              <p onMouseOver={handleLocationMouseOver} onMouseOut={handleLocationMouseOut}>
+                오늘드림
+              </p>{' '}
+              <img src={dream} alt="delivery" className="w-[22px]" />
+              <LocationModal locationHover={locationHover} />
             </li>
-            <li className="flex flex-row gap-1 items-center hover:cursor-pointer hover:underline hover:underline-offset-[5px] decoration-2">
-              관심 매장소식
+            <li className="flex flex-row gap-1 items-center hover:cursor-pointer hover:underline hover:underline-offset-[5px] decoration-2 relative">
+              <p onMouseOver={handleStoreMouseOver} onMouseOut={handleStoreMouseOut}>
+                관심 매장소식
+              </p>
               <div className="w-[7px] h-[4px] bg-arrow-hover"></div>
+              <StoreModal storeHover={storeHover} />
             </li>
-            <li className="flex flex-row gap-1 items-center hover:cursor-pointer">
+            <li className="flex flex-row gap-1 items-center hover:cursor-pointer" onClick={handleRecentClick}>
               최근 본 상품<div className="w-[7px] h-[4px] bg-arrow-active"></div>
             </li>
           </ul>

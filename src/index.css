@@ -16,6 +16,42 @@
   src: url('./resorces/fonts/NotoSansKR-Light.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 500;
+  src: url('./resorces/fonts/NotoSansKR-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 100;
+  src: url('./resorces/fonts/NotoSansKR-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 200;
+  src: url('./resorces/fonts/NotoSansKR-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 600;
+  src: url('./resorces/fonts/NotoSansKR-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 800;
+  src: url('./resorces/fonts/NotoSansKR-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 900;
+  src: url('./resorces/fonts/NotoSansKR-Black.woff2') format('woff2');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
