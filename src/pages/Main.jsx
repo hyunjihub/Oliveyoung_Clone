@@ -1,6 +1,8 @@
 import MainCarousel from '../components/MainCarousel';
 import React from 'react';
 import Recommend from '../components/Recommend';
+import ad1 from '../resorces/images/ad1.jpg';
+import ad2 from '../resorces/images/ad2.jpg';
 import bioderma from '../resorces/images/bioderma.png';
 import customer from '../resorces/images/customer.png';
 import download from '../resorces/images/download.png';
@@ -25,8 +27,8 @@ function Main(props) {
       ></div>
       <Recommend />
 
-      <div className="w-[1020px] h-[275px] flex flex-col items-center">
-        <h1 className="text-[26px] font-bold mb-[8px]">Weekly Special</h1>
+      <div className="w-[1020px] h-[315px] flex flex-col items-center">
+        <h1 className="text-[26px] font-bold mt-[50px] mb-[8px]">Weekly Special</h1>
         <div className="w-[1020px] flex flex-row justify-between">
           <div
             className="w-[500px] h-[227px] rounded-md relative"
@@ -62,6 +64,79 @@ function Main(props) {
                 클렌징 치트키
               </h2>
               <p className="mt-[15px]">#바이오더마 클렌징워터</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[1020px] flex flex-col items-center mt-[100px]">
+        <h1 className="flex gap-2 text-[26px] font-bold items-center">
+          MD가 추천해요!{' '}
+          <div className="h-[23px] bg-[#f0f1f4] text-[#757d86] text-sm font-bold py-[3px] px-[7px]">AD</div>
+        </h1>
+        <div className="flex flex-row mt-[30px] ">
+          <div className="w-[500px] flex flex-row justify-between mr-[20px]">
+            <div
+              className="w-[175px] h-[175px] relative"
+              style={{
+                backgroundImage: `url(${ad1})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+              }}
+            ></div>
+            <div className="w-[300px] flex flex-col gap-1 justify-center">
+              <p className="text-sm text-[#777] font-bold">비비안</p>
+              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px]">
+                [6월 올영픽] 비비안 노라인 햄팬티 2매입 (블랙/베이지)
+              </p>
+              <p className="text-sm line-through font-semibold text-[#a9a9a9]">20,000원</p>
+              <p className="text-sm text-[#e02020] font-semibold">
+                <span className="text-xl">17,500</span>원 ~
+              </p>
+              <div className="h-[18px] flex flex-row justify-start">
+                <div className="w-[40px] h-[18px] rounded-[9px] bg-[#f65c60] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  세일
+                </div>
+                <div className="w-[40px] h-[18px] rounded-[9px] bg-[#9bce26] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  쿠폰
+                </div>
+                <div className="w-[60px] h-[18px] rounded-[9px] bg-[#f374b7] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  오늘드림
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[500px] flex flex-row justify-between">
+            <div
+              className="w-[175px] h-[175px] relative"
+              style={{
+                backgroundImage: `url(${ad2})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+              }}
+            ></div>
+            <div className="w-[300px] flex flex-col gap-1 justify-center">
+              <p className="text-sm text-[#777] font-bold">페리페라</p>
+              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px]">
+                [NEW 로즈닝] 페리페라 잉크 더 에어리벨벳
+              </p>
+              <p className="text-sm line-through font-semibold text-[#a9a9a9]">10,000원</p>
+              <p className="text-sm text-[#e02020] font-semibold">
+                <span className="text-xl">7,520</span>원 ~
+              </p>
+              <div className="h-[18px] flex flex-row justify-start">
+                <div className="w-[40px] h-[18px] rounded-[9px] bg-[#f65c60] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  세일
+                </div>
+                <div className="w-[40px] h-[18px] rounded-[9px] bg-[#9bce26] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  쿠폰
+                </div>
+                <div className="w-[60px] h-[18px] rounded-[9px] bg-[#f374b7] text-[#fff] text-xs justify-center leading-[7px] flex items-center">
+                  오늘드림
+                </div>
+              </div>
             </div>
           </div>
         </div>
