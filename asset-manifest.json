@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Oliveyoung_Clone/static/css/main.84854a60.css",
-    "main.js": "/Oliveyoung_Clone/static/js/main.7f79392e.js",
+    "main.css": "/Oliveyoung_Clone/static/css/main.0980fd9b.css",
+    "main.js": "/Oliveyoung_Clone/static/js/main.e208aac3.js",
     "static/media/NotoSansKR-SemiBold.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-SemiBold.988db029677e6a34dbc5.woff2",
     "static/media/NotoSansKR-Light.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Light.bfd5e19669525f2eaa2a.woff2",
     "static/media/NotoSansKR-Thin.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Thin.1be8a47dfc393f41343c.woff2",
@@ -23,8 +23,28 @@
     "static/media/Montserrat-Regular.woff2": "/Oliveyoung_Clone/static/media/Montserrat-Regular.812dd4640aaa4e4db7b8.woff2",
     "static/media/download.png": "/Oliveyoung_Clone/static/media/download.de6917e9f8909b65c5c6.png",
     "static/media/gift.jpg": "/Oliveyoung_Clone/static/media/gift.b203cb51a6f5267f4760.jpg",
+    "static/media/goods9.jpg": "/Oliveyoung_Clone/static/media/goods9.7d746942bcab72fc6c57.jpg",
+    "static/media/goods16.jpg": "/Oliveyoung_Clone/static/media/goods16.2f8a0d763d529273508d.jpg",
+    "static/media/ad2.jpg": "/Oliveyoung_Clone/static/media/ad2.b56c46268924f8d94019.jpg",
+    "static/media/goods17.jpg": "/Oliveyoung_Clone/static/media/goods17.ab3f8eb2d537d0a216cc.jpg",
+    "static/media/goods12.jpg": "/Oliveyoung_Clone/static/media/goods12.7cfb2b84fba0a5f8c80d.jpg",
+    "static/media/goods6.jpg": "/Oliveyoung_Clone/static/media/goods6.50cf2496d6872ec5887d.jpg",
+    "static/media/goods19.jpg": "/Oliveyoung_Clone/static/media/goods19.6f0b0e030b8e5cfe211f.jpg",
+    "static/media/goods4.jpg": "/Oliveyoung_Clone/static/media/goods4.5d00a1d2aee28d671ee4.jpg",
+    "static/media/goods14.jpg": "/Oliveyoung_Clone/static/media/goods14.b1d15d1a633f13aeb8a9.jpg",
+    "static/media/goods3.jpg": "/Oliveyoung_Clone/static/media/goods3.fca3fec408c6f395bfac.jpg",
+    "static/media/goods10.jpg": "/Oliveyoung_Clone/static/media/goods10.f5867c6f9ceb6d3c8ab3.jpg",
+    "static/media/goods15.jpg": "/Oliveyoung_Clone/static/media/goods15.5a41d6ef5078f07fff54.jpg",
     "static/media/goods1.jpg": "/Oliveyoung_Clone/static/media/goods1.f139ac1fd131d8009d9d.jpg",
+    "static/media/goods18.jpg": "/Oliveyoung_Clone/static/media/goods18.04fca961530a0dcf2bbd.jpg",
+    "static/media/goods11.jpg": "/Oliveyoung_Clone/static/media/goods11.0e9c85ccced5983b54be.jpg",
+    "static/media/goods20.jpg": "/Oliveyoung_Clone/static/media/goods20.0b309efbc1f5f11f9f58.jpg",
     "static/media/goods2.jpg": "/Oliveyoung_Clone/static/media/goods2.5aa413cc994ec390eb58.jpg",
+    "static/media/goods7.jpg": "/Oliveyoung_Clone/static/media/goods7.baacf0aac1d69805ec75.jpg",
+    "static/media/goods8.jpg": "/Oliveyoung_Clone/static/media/goods8.28d1a247e1886d099716.jpg",
+    "static/media/goods13.jpg": "/Oliveyoung_Clone/static/media/goods13.633cf3b735388e29aa87.jpg",
+    "static/media/ad1.jpg": "/Oliveyoung_Clone/static/media/ad1.a58e12754ad5319d0032.jpg",
+    "static/media/goods5.jpg": "/Oliveyoung_Clone/static/media/goods5.af30b9c4b83b30036225.jpg",
     "static/media/slick.svg": "/Oliveyoung_Clone/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Oliveyoung_Clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Oliveyoung_Clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -35,11 +55,11 @@
     "static/media/down.svg": "/Oliveyoung_Clone/static/media/down.9d04a1d9dfe8614c11701fdbdc6ae338.svg",
     "static/media/up.svg": "/Oliveyoung_Clone/static/media/up.1f0ab86c912752180539c9841cc54b57.svg",
     "static/media/delete.svg": "/Oliveyoung_Clone/static/media/delete.9a8618d1e17ed7a4455bcd6ace2e2a33.svg",
-    "main.84854a60.css.map": "/Oliveyoung_Clone/static/css/main.84854a60.css.map",
-    "main.7f79392e.js.map": "/Oliveyoung_Clone/static/js/main.7f79392e.js.map"
+    "main.0980fd9b.css.map": "/Oliveyoung_Clone/static/css/main.0980fd9b.css.map",
+    "main.e208aac3.js.map": "/Oliveyoung_Clone/static/js/main.e208aac3.js.map"
   },
   "entrypoints": [
-    "static/css/main.84854a60.css",
-    "static/js/main.7f79392e.js"
+    "static/css/main.0980fd9b.css",
+    "static/js/main.e208aac3.js"
   ]
 }
