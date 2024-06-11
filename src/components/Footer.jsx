@@ -20,12 +20,12 @@ function Footer(props) {
       >
         <div className="w-[1020px] py-[18px] flex flex-row justify-between items-center">
           <ul className="flex flex-row text-xs text-[#000]">
-            <li className="pr-[20px]">회사소개</li>
-            <li className="px-[20px]">채용안내</li>
-            <li className="px-[20px]">가맹점 개설문의</li>
-            <li className="px-[20px]">상품입점 및 제휴문의</li>
-            <li className="px-[20px]">사이버 감사실</li>
-            <li className="px-[20px]">고객센터</li>
+            <li className="pr-[20px] border-r px-[10px]">회사소개</li>
+            <li className="px-[20px] border-r px-[10px]">채용안내</li>
+            <li className="px-[20px] border-r px-[10px]">가맹점 개설문의</li>
+            <li className="px-[20px] border-r px-[10px]">상품입점 및 제휴문의</li>
+            <li className="px-[20px] border-r px-[10px]">사이버 감사실</li>
+            <li className="px-[20px] ">고객센터</li>
           </ul>
           <select
             className="w-[235px] h-[30px] px-[10px] border border-[#e5e5e5] text-xs text-[#777]"

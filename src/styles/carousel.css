@@ -1,0 +1,49 @@
+.prev-arrow,
+.next-arrow {
+  position: absolute;
+  bottom: 3%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 21px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  color: #333;
+}
+
+.prev-arrow {
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.next-arrow {
+  left: 38%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.auto-inactive {
+  background-image: url('../resorces/images/autoplay.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.auto-active {
+  background-image: url('../resorces/images/autoplay.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}

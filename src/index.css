@@ -52,12 +52,24 @@
   src: url('./resorces/fonts/NotoSansKR-Black.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('./resorces/fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('./resorces/fonts/Montserrat-Bold.woff2') format('woff2');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'NotoSansKR', sans-serif;
+  font-family: 'Montserrat', 'NotoSansKR', sans-serif;
 }
 
 .custom-placeholder::placeholder {

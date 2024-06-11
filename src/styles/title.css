@@ -1,0 +1,11 @@
+.custom-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.slick-slide {
+  display: block !important; /* inline-block 속성 덮어쓰기 */
+}

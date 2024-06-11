@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import Cart from './pages/Cart';
 import Footer from './components/Footer';
@@ -13,12 +13,7 @@ export default function App(props) {
     <BrowserRouter>
       <Header />
       <Menu />
-      <Routes>
-        <Route index element={<Main />} />
-        <Route path="/main" element={<Main />} />
-        <Route path="/ranking" element={<Ranking />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
+      <Main />
       <Footer />
     </BrowserRouter>
   );
