@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0;
+  gap: 10px;
+}
+
+.pagination li {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination li.active {
+  border: 1px solid #666;
+  color: #333;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pagination li:first-child,
+.pagination li:last-child {
+  display: none;
+}
+
+.pagination li.prev,
+.pagination li.next {
+  display: none;
+}

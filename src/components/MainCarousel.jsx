@@ -63,7 +63,7 @@ const MainCarousel = () => {
   return (
     <div className="w-[100%] slider-container relative">
       <div className="absolute top-0 left-[442px] w-[170px] h-[450px] bg-[rgba(0,0,0,0.3)] z-10">
-        <ul className="w-[170px] h-[31px] text-[#fff] pt-[1px] font-bold text-sm leading-8">
+        <ul className="w-[170px] h-[31px] text-[#fff] font-bold text-sm leading-[27px]">
           <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">스킨케어</li>
           <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">메이크업/네일</li>
           <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">미용소품</li>

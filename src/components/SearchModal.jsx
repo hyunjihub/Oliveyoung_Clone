@@ -28,10 +28,10 @@ function SearchModal({ searchClick, setSearchClick, chart }) {
     <div
       ref={modalRef}
       className={
-        'w-[520px] bg-[#ffffff] absolute z-10 top-11 left-0 border border-[#d5d5d5] px-[15px] py-[29px] rounded-[20px] flex flex-row justify-center' +
+        'w-[520px] bg-[#ffffff] absolute top-11 left-0 border border-[#d5d5d5] px-[15px] py-[29px] rounded-[20px] flex flex-row justify-center' +
         (searchClick ? ' visible' : ' invisible')
       }
-      style={{ zIndex: '20' }}
+      style={{ zIndex: '200' }}
     >
       <div className="flex flex-col items-start w-[50%] px-[20px] border-r">
         <p className="text-base font-bold text-[#131518] mb-[11px]">최근 검색어</p>
