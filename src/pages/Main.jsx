@@ -1,6 +1,11 @@
+import Brand from '../components/Brand';
+import Event from '../components/Event';
 import MainCarousel from '../components/MainCarousel';
+import New from '../components/New';
+import OnlyOliveYoung from '../components/OnlyOliveYoung';
 import React from 'react';
 import Recommend from '../components/Recommend';
+import Taste from '../components/Taste';
 import ad1 from '../resorces/images/ad1.jpg';
 import ad2 from '../resorces/images/ad2.jpg';
 import bioderma from '../resorces/images/bioderma.png';
@@ -69,7 +74,10 @@ function Main(props) {
         </div>
       </div>
 
-      <div className="w-[1020px] flex flex-col items-center mt-[100px]">
+      <Event />
+      <OnlyOliveYoung />
+
+      <div className="w-[1020px] flex flex-col items-center mt-[80px]">
         <h1 className="flex gap-2 text-[26px] font-bold items-center">
           MD가 추천해요!{' '}
           <div className="h-[23px] bg-[#f0f1f4] text-[#757d86] text-sm font-bold py-[3px] px-[7px]">AD</div>
@@ -141,6 +149,10 @@ function Main(props) {
           </div>
         </div>
       </div>
+
+      <Taste />
+      <New />
+      <Brand />
 
       <div className="w-[1020px] min-h-[246px] mt-[60px] border-t border-[#000] flex flex-row justify-between">
         <div className="flex flex-col mt-[10px]">

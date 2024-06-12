@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       sans: ['NotoSansKR', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, rgba(19, 21, 24, 0) 0%, rgba(19, 21, 24, .4) 100%)',
+      },
+    },
   },
   plugins: [],
 };

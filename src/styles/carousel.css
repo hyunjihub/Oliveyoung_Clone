@@ -15,8 +15,40 @@
   justify-content: center;
 }
 
+.prev-arrow-taste,
+.next-arrow-taste {
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 21px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-arrow-brand,
+.next-arrow-brand {
+  position: absolute;
+  top: 36%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 32px;
+  height: 50px;
+}
+
 .prev-arrow:hover,
 .next-arrow:hover {
+  color: #333;
+}
+
+.prev-arrow-taste:hover,
+.next-arrow-taste:hover {
   color: #333;
 }
 
@@ -30,6 +62,37 @@
   left: 38%;
   transform: translate(50%, -50%);
   z-index: 100;
+}
+
+.prev-arrow-taste {
+  left: -10%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.next-arrow-taste {
+  right: -10%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+
+.prev-arrow-brand {
+  left: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-image: url('../resorces/images/prev.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.next-arrow-brand {
+  right: 5%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+  background-image: url('../resorces/images/prev.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
 }
 
 .slider-container {
@@ -46,4 +109,58 @@
   background-image: url('../resorces/images/autoplay.png');
   background-position: top;
   background-repeat: no-repeat;
+}
+
+.slick-slide {
+  display: block !important; /* inline-block 속성 덮어쓰기 */
+}
+
+.custom-dots-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.custom-dots-brand-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.custom-dot {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.custom-dot.active {
+  background-color: #2f3030;
+  color: #fff;
+}
+
+.custom-dot-brand {
+  padding: 6px 16px;
+  background-color: #fff;
+  border: 1px solid #dadde0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  color: #757d86;
+}
+
+.custom-dot-brand.active {
+  background-color: #2f3030;
+  color: #fff;
 }

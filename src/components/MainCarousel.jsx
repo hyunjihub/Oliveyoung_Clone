@@ -14,13 +14,13 @@ import img5 from '../resorces/images/slide-4.jpg';
 import img6 from '../resorces/images/slide-5.jpg';
 
 const PrevArrow = ({ onClick }) => (
-  <div className="prev-arrow" onClick={onClick}>
+  <div className="prev-arrow font-bold" onClick={onClick}>
     &lt;
   </div>
 );
 
 const NextArrow = ({ onClick }) => (
-  <div className="next-arrow" onClick={onClick}>
+  <div className="next-arrow font-bold" onClick={onClick}>
     &gt;
   </div>
 );
