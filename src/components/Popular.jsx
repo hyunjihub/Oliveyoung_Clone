@@ -70,7 +70,7 @@ const Popular = () => {
             sliderB.current.slickGoTo(0);
             sliderB.current.slickPlay();
           }
-        }, 4000);
+        }, 3000);
       }
     },
   };
@@ -93,7 +93,7 @@ const Popular = () => {
             sliderA.current.slickGoTo(0);
             sliderA.current.slickPlay();
           }
-        }, 4000);
+        }, 3000);
       }
     },
   };
