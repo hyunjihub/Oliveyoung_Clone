@@ -629,7 +629,7 @@ const Popular = () => {
                       activeSlideB === 0 ? 'border border-[#000] rounded-md' : ''
                     }`}
                   >
-                    <p className={`text-lg ${activeSlideB === 0 ? 'text-[#333]' : 'text-[#999]'}`}>1</p>
+                    <p className={`text-lg ${activeSlideB === 0 ? 'text-[#333]' : 'text-[#999]'}`}>6</p>
                     <p
                       className={`text-sm w-[90%] break-keep custom-ellipsis cursor-pointer text-nowrap ${
                         activeSlideB === 0 ? 'text-[#333]' : 'text-[#999]'
@@ -643,7 +643,7 @@ const Popular = () => {
                       activeSlideB === 1 ? 'border border-[#000] rounded-md' : ''
                     }`}
                   >
-                    <p className={`text-lg ${activeSlideB === 1 ? 'text-[#333]' : 'text-[#999]'}`}>2</p>
+                    <p className={`text-lg ${activeSlideB === 1 ? 'text-[#333]' : 'text-[#999]'}`}>7</p>
                     <p
                       className={`text-sm w-[90%] break-keep custom-ellipsis cursor-pointer text-nowrap ${
                         activeSlideB === 1 ? 'text-[#333]' : 'text-[#999]'
@@ -658,7 +658,7 @@ const Popular = () => {
                       activeSlideB === 2 ? 'border border-[#000] rounded-md' : ''
                     }`}
                   >
-                    <p className={`text-lg ${activeSlideB === 2 ? 'text-[#333]' : 'text-[#999]'}`}>3</p>
+                    <p className={`text-lg ${activeSlideB === 2 ? 'text-[#333]' : 'text-[#999]'}`}>8</p>
                     <p
                       className={`text-sm w-[90%] break-keep custom-ellipsis cursor-pointer text-nowrap ${
                         activeSlideB === 2 ? 'text-[#333]' : 'text-[#999]'
@@ -672,7 +672,7 @@ const Popular = () => {
                       activeSlideB === 3 ? 'border border-[#333] rounded-md' : ''
                     }`}
                   >
-                    <p className={`text-lg ${activeSlideB === 3 ? 'text-[#000]' : 'text-[#999]'}`}>4</p>
+                    <p className={`text-lg ${activeSlideB === 3 ? 'text-[#000]' : 'text-[#999]'}`}>9</p>
                     <p
                       className={`text-sm w-[90%] break-keep custom-ellipsis cursor-pointer text-nowrap ${
                         activeSlideB === 3 ? 'text-[#333]' : 'text-[#999]'
@@ -686,7 +686,7 @@ const Popular = () => {
                       activeSlideB === 4 ? 'border border-[#000] rounded-md' : ''
                     }`}
                   >
-                    <p className={`text-lg ${activeSlideB === 4 ? 'text-[#333]' : 'text-[#999]'}`}>5</p>
+                    <p className={`text-lg ${activeSlideB === 4 ? 'text-[#333]' : 'text-[#999]'}`}>10</p>
                     <p
                       className={`text-sm w-[90%] break-keep custom-ellipsis cursor-pointer text-nowrap ${
                         activeSlideB === 4 ? 'text-[#333]' : 'text-[#999]'
