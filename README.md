@@ -20,6 +20,10 @@ https://hyunjihub.github.io/Oliveyoung_Clone/
 
 ## 구현 UI 🎨
 ###### 모든 이미지는 속도 2~3배된 영상입니다. 실제 속도와 차이가 있습니다.
+### Header
+##### hover 또는 클릭 시 해당 Modal이 표시됩니다. react-js-pagination을 이용하여 페이지네이션을 구현하였습니다.
+![-Clipchamp52-ezgif com-video-to-gif-converter](https://github.com/hyunjihub/Oliveyoung_Clone/assets/97017935/4858d1f5-1b49-4b7a-9c39-cb014a2a113d)
+
 ### 메인 슬라이드
 ##### autoplay로 일정 시간 후 전환되며 prev와 next 버튼을 이용하여 전환시킬 수 있습니다. pause 버튼을 이용해 autoplay를 중단시킬 수 있습니다.
 ![-Clipchamp45-ezgif com-video-to-gif-converter (1)](https://github.com/hyunjihub/Oliveyoung_Clone/assets/97017935/a39c33e1-9e44-4d02-a928-cc325c40e3d3)
@@ -38,7 +42,7 @@ https://hyunjihub.github.io/Oliveyoung_Clone/
 
 ### 조회 급상승
 ##### 1위부터 10까지의 상품을 확인할 수 있습니다. 일정 시간마다 다음 순위를 표시하며, 5위/10위 이후 다음 slide로 자동 이동됩니다.
-![-Clipchamp49-ezgif com-video-to-gif-converter](https://github.com/hyunjihub/Oliveyoung_Clone/assets/97017935/e261b46e-aa0d-4938-98ac-a32c2e4b7413)
+![-Clipchamp53-ezgif com-video-to-gif-converter](https://github.com/hyunjihub/Oliveyoung_Clone/assets/97017935/0b87e157-9824-4544-a36c-f16c6d1c9b2f)
 
 
 ## 관련 게시글
