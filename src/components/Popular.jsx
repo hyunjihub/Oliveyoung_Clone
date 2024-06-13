@@ -65,7 +65,7 @@ const Popular = () => {
     afterChange: (current) => {
       if (current === 4) {
         setTimeout(() => {
-          if (sliderWrapper.current && sliderB.current) {
+          if (sliderWrapper.current && sliderB.current && activeSlide===0) {
             sliderWrapper.current.slickGoTo(1); // Slider B로 이동
             sliderB.current.slickGoTo(0);
             sliderB.current.slickPlay();
@@ -88,7 +88,7 @@ const Popular = () => {
     afterChange: (current) => {
       if (current === 4) {
         setTimeout(() => {
-          if (sliderWrapper.current && sliderA.current) {
+          if (sliderWrapper.current && sliderA.current && activeSlide===1) {
             sliderWrapper.current.slickGoTo(0); // Slider A로 이동
             sliderA.current.slickGoTo(0);
             sliderA.current.slickPlay();
