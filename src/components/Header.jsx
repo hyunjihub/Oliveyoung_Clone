@@ -152,7 +152,7 @@ function Header(props) {
   };
 
   const handleRecentClick = () => {
-    setRecentClick(!recentClick);
+    setRecentClick(true);
     setLocationHover(false);
   };
 
