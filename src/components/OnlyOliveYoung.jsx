@@ -50,7 +50,7 @@ const OnlyOliveYoung = () => {
               <div className="w-[1020px] flex flex-row justify-between">
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only1})`,
                       backgroundPosition: 'center',
@@ -67,7 +67,7 @@ const OnlyOliveYoung = () => {
                 </div>
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only2})`,
                       backgroundPosition: 'center',
@@ -84,7 +84,7 @@ const OnlyOliveYoung = () => {
                 </div>
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only3})`,
                       backgroundPosition: 'center',
@@ -105,7 +105,7 @@ const OnlyOliveYoung = () => {
               <div className="w-[1020px] flex flex-row justify-between">
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only4})`,
                       backgroundPosition: 'center',
@@ -122,7 +122,7 @@ const OnlyOliveYoung = () => {
                 </div>
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only5})`,
                       backgroundPosition: 'center',
@@ -139,7 +139,7 @@ const OnlyOliveYoung = () => {
                 </div>
                 <div className="w-[334px] flex flex-col items-center">
                   <div
-                    className="w-[334px] h-[145px] rounded relative"
+                    className="w-[334px] h-[145px] rounded relative cursor-pointer"
                     style={{
                       backgroundImage: `url(${only6})`,
                       backgroundPosition: 'center',

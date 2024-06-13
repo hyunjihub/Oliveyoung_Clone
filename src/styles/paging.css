@@ -7,10 +7,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin: 5px 0;
-}
-
 .pagination {
   display: flex;
   justify-content: center;

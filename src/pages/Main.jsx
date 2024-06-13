@@ -3,6 +3,7 @@ import Event from '../components/Event';
 import MainCarousel from '../components/MainCarousel';
 import New from '../components/New';
 import OnlyOliveYoung from '../components/OnlyOliveYoung';
+import Popular from '../components/Popular';
 import React from 'react';
 import Recommend from '../components/Recommend';
 import Taste from '../components/Taste';
@@ -22,7 +23,7 @@ function Main(props) {
     <div className="flex flex-col gap-[40px] items-center">
       <MainCarousel />
       <div
-        className="w-[1020px] h-[102px]"
+        className="w-[1020px] h-[102px] cursor-pointer"
         style={{
           backgroundImage: `url(${gift})`,
           backgroundPosition: 'center',
@@ -36,7 +37,7 @@ function Main(props) {
         <h1 className="text-[26px] font-bold mt-[50px] mb-[8px]">Weekly Special</h1>
         <div className="w-[1020px] flex flex-row justify-between">
           <div
-            className="w-[500px] h-[227px] rounded-md relative"
+            className="w-[500px] h-[227px] rounded-md relative cursor-pointer"
             style={{
               backgroundImage: `url(${kissme})`,
               backgroundPosition: 'center',
@@ -54,7 +55,7 @@ function Main(props) {
             </div>
           </div>
           <div
-            className="w-[500px] h-[227px] rounded-md relative"
+            className="w-[500px] h-[227px] rounded-md relative cursor-pointer"
             style={{
               backgroundImage: `url(${bioderma})`,
               backgroundPosition: 'center',
@@ -85,7 +86,7 @@ function Main(props) {
         <div className="flex flex-row mt-[30px] ">
           <div className="w-[500px] flex flex-row justify-between mr-[20px]">
             <div
-              className="w-[175px] h-[175px] relative"
+              className="w-[175px] h-[175px] relative cursor-pointer"
               style={{
                 backgroundImage: `url(${ad1})`,
                 backgroundPosition: 'center',
@@ -94,8 +95,8 @@ function Main(props) {
               }}
             ></div>
             <div className="w-[300px] flex flex-col gap-1 justify-center">
-              <p className="text-sm text-[#777] font-bold">비비안</p>
-              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px]">
+              <p className="text-sm text-[#777] font-bold cursor-pointer">비비안</p>
+              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px] cursor-pointer">
                 [6월 올영픽] 비비안 노라인 햄팬티 2매입 (블랙/베이지)
               </p>
               <p className="text-sm line-through font-semibold text-[#a9a9a9]">20,000원</p>
@@ -117,7 +118,7 @@ function Main(props) {
           </div>
           <div className="w-[500px] flex flex-row justify-between">
             <div
-              className="w-[175px] h-[175px] relative"
+              className="w-[175px] h-[175px] relative cursor-pointer"
               style={{
                 backgroundImage: `url(${ad2})`,
                 backgroundPosition: 'center',
@@ -126,8 +127,8 @@ function Main(props) {
               }}
             ></div>
             <div className="w-[300px] flex flex-col gap-1 justify-center">
-              <p className="text-sm text-[#777] font-bold">페리페라</p>
-              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px]">
+              <p className="text-sm text-[#777] font-bold cursor-pointer">페리페라</p>
+              <p className="h-[40px] text-sm w-[270px] break-keep custom-ellipsis mt-[8px] cursor-pointer">
                 [NEW 로즈닝] 페리페라 잉크 더 에어리벨벳
               </p>
               <p className="text-sm line-through font-semibold text-[#a9a9a9]">10,000원</p>
@@ -153,6 +154,7 @@ function Main(props) {
       <Taste />
       <New />
       <Brand />
+      <Popular />
 
       <div className="w-[1020px] min-h-[246px] mt-[60px] border-t border-[#000] flex flex-row justify-between">
         <div className="flex flex-col mt-[10px]">

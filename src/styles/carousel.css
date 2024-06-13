@@ -164,3 +164,16 @@
   background-color: #2f3030;
   color: #fff;
 }
+
+.slide-item {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.slide-item .active {
+  border: 1px solid #333;
+}
+
+.active-slide {
+  border: 2px solid red;
+}

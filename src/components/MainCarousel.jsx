@@ -63,21 +63,21 @@ const MainCarousel = () => {
   return (
     <div className="w-[100%] slider-container relative">
       <div className="absolute top-0 left-[442px] w-[170px] h-[450px] bg-[rgba(0,0,0,0.3)] z-10">
-        <ul className="w-[170px] h-[31px] text-[#fff] font-bold text-sm leading-[27px]">
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">스킨케어</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">메이크업/네일</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">미용소품</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">더모코스메틱</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">맨즈케어</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">향수/디퓨저</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">헤어케어</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">바디케어</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">건강식품</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">푸드</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">구강/건강용품</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">여성/위생용품</li>
-          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)]">라이프/팬시</li>
-          <li className="flex flex-row gap-1 w-[170px] px-[23px] bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.8)]">
+        <ul className="w-[170px] h-[31px] text-[#fff] font-bold text-sm leading-8">
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">스킨케어</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">메이크업/네일</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">미용소품</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">더모코스메틱</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">맨즈케어</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">향수/디퓨저</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">헤어케어</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">바디케어</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">건강식품</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">푸드</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">구강/건강용품</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">여성/위생용품</li>
+          <li className="px-[23px] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">라이프/팬시</li>
+          <li className="flex flex-row gap-1 w-[170px] px-[23px] bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(0,0,0,0.8)] cursor-pointer">
             AWARDS
             <img src={award} />
           </li>
@@ -245,7 +245,7 @@ const MainCarousel = () => {
           </div>
         </div>
       </Slider>
-      <div className="absolute bottom-[10%] left-[36.9%] text-sm text-[#666]">{currentSlide + 1}/6</div>
+      <div className="absolute bottom-[9.5%] left-[37%] text-sm text-[#666]">{currentSlide + 1}/6</div>
       <div
         className={`absolute w-[40px] h-[40px] left-[42%] bottom-[7.5%] ${isAuto ? 'auto-active' : 'auto-inactive'}`}
         onClick={toggleAutoPlay}

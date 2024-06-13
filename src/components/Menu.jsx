@@ -10,17 +10,33 @@ function Menu(props) {
           카테고리
         </button>
         <ul className="pl-[55px] flex flex-row gap-10 font-bold">
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">오특</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">랭킹</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">헬스+</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">LUXE EDIT</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">기획전</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">세일</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">기프트카드</li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            오특
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            랭킹
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            헬스+
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            LUXE EDIT
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            기획전
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            세일
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            기프트카드
+          </li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
             멤버십/쿠폰
           </li>
-          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2">이벤트</li>
+          <li className="hover:text-[#f27370] hover:underline hover:underline-offset-[5px] decoration-2 cursor-pointer">
+            이벤트
+          </li>
         </ul>
       </div>
     </div>

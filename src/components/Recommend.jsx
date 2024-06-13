@@ -41,10 +41,12 @@ const NextArrow = ({ onClick, currentSlide }) => (
 );
 
 const MainCarousel = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const sliderRef = useRef(null);
+  const [currentSlideA, setCurrentSlideA] = useState(0);
+  const [currentSlideB, setCurrentSlideB] = useState(0);
+  const sliderRefA = useRef(null);
+  const sliderRefB = useRef(null);
 
-  const [settings, setSettings] = useState({
+  const settingsA = {
     dots: false,
     infinite: true,
     speed: 10,
@@ -54,12 +56,31 @@ const MainCarousel = () => {
     autoplay: false,
     draggable: false,
     arrows: false,
-    beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
-  });
+    beforeChange: (oldIndex, newIndex) => setCurrentSlideA(newIndex),
+  };
 
-  const handleNextClick = () => {
-    if (sliderRef.current) {
-      sliderRef.current.slickNext();
+  const settingsB = {
+    dots: false,
+    infinite: true,
+    speed: 10,
+    waitForAnimate: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    draggable: false,
+    arrows: false,
+    beforeChange: (oldIndex, newIndex) => setCurrentSlideB(newIndex),
+  };
+
+  const handleNextClickA = () => {
+    if (sliderRefA.current) {
+      sliderRefA.current.slickNext();
+    }
+  };
+
+  const handleNextClickB = () => {
+    if (sliderRefB.current) {
+      sliderRefB.current.slickNext();
     }
   };
 
@@ -74,7 +95,7 @@ const MainCarousel = () => {
           >
             더보기 <img className="w-[7px] h-[11px]" src={more} alt="more" />
           </button>
-          <Slider ref={sliderRef} {...settings}>
+          <Slider ref={sliderRefA} {...settingsA}>
             <div>
               <div className="w-[510px] px-[20px] flex flex-row justify-between">
                 <div className="w-[215px] flex flex-col items-center">
@@ -418,7 +439,7 @@ const MainCarousel = () => {
           </Slider>
         </div>
 
-        <NextArrow onClick={handleNextClick} currentSlide={currentSlide} />
+        <NextArrow onClick={handleNextClickA} currentSlide={currentSlideA} />
       </div>
 
       <div>
@@ -430,7 +451,7 @@ const MainCarousel = () => {
           >
             더보기 <img className="w-[7px] h-[11px]" src={more} alt="more" />
           </button>
-          <Slider ref={sliderRef} {...settings}>
+          <Slider ref={sliderRefB} {...settingsB}>
             <div>
               <div className="w-[510px] px-[20px] flex flex-row justify-between">
                 <div className="w-[215px] flex flex-col items-center">
@@ -784,7 +805,7 @@ const MainCarousel = () => {
           </Slider>
         </div>
 
-        <NextArrow onClick={handleNextClick} currentSlide={currentSlide} />
+        <NextArrow onClick={handleNextClickB} currentSlide={currentSlideB} />
       </div>
     </div>
   );

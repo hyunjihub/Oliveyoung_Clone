@@ -56,7 +56,7 @@ const New = () => {
               <div className="w-[1020px] flex flex-row justify-between">
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new1})`,
                       backgroundPosition: 'center',
@@ -72,7 +72,7 @@ const New = () => {
 
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new2})`,
                       backgroundPosition: 'center',
@@ -94,7 +94,7 @@ const New = () => {
               <div className="w-[1020px] flex flex-row justify-between">
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new3})`,
                       backgroundPosition: 'center',
@@ -110,7 +110,7 @@ const New = () => {
 
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new4})`,
                       backgroundPosition: 'center',
@@ -130,7 +130,7 @@ const New = () => {
               <div className="w-[1020px] flex flex-row justify-between">
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new5})`,
                       backgroundPosition: 'center',
@@ -146,7 +146,7 @@ const New = () => {
 
                 <div className="w-[500px] flex flex-col items-center">
                   <div
-                    className="w-[500px] h-[282px] rounded"
+                    className="w-[500px] h-[282px] rounded cursor-pointer"
                     style={{
                       backgroundImage: `url(${new6})`,
                       backgroundPosition: 'center',
