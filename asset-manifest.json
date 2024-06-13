@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Oliveyoung_Clone/static/css/main.aa7efef9.css",
-    "main.js": "/Oliveyoung_Clone/static/js/main.eaaa8333.js",
+    "main.js": "/Oliveyoung_Clone/static/js/main.d3571ae3.js",
     "static/media/NotoSansKR-SemiBold.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-SemiBold.988db029677e6a34dbc5.woff2",
     "static/media/NotoSansKR-Light.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Light.bfd5e19669525f2eaa2a.woff2",
     "static/media/NotoSansKR-Thin.woff2": "/Oliveyoung_Clone/static/media/NotoSansKR-Thin.1be8a47dfc393f41343c.woff2",
@@ -148,10 +148,10 @@
     "static/media/up.svg": "/Oliveyoung_Clone/static/media/up.1f0ab86c912752180539c9841cc54b57.svg",
     "static/media/delete.svg": "/Oliveyoung_Clone/static/media/delete.9a8618d1e17ed7a4455bcd6ace2e2a33.svg",
     "main.aa7efef9.css.map": "/Oliveyoung_Clone/static/css/main.aa7efef9.css.map",
-    "main.eaaa8333.js.map": "/Oliveyoung_Clone/static/js/main.eaaa8333.js.map"
+    "main.d3571ae3.js.map": "/Oliveyoung_Clone/static/js/main.d3571ae3.js.map"
   },
   "entrypoints": [
     "static/css/main.aa7efef9.css",
-    "static/js/main.eaaa8333.js"
+    "static/js/main.d3571ae3.js"
   ]
 }
