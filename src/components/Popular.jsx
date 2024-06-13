@@ -15,6 +15,7 @@ import goods6 from '../resorces/images/popular6.jpg';
 import goods7 from '../resorces/images/popular7.jpg';
 import goods8 from '../resorces/images/popular8.jpg';
 import goods9 from '../resorces/images/popular9.jpg';
+import refresh from '../resorces/images/refresh.png';
 import view from '../resorces/images/view.png';
 
 const Popular = () => {
@@ -101,10 +102,15 @@ const Popular = () => {
     <div>
       <h1 className="w-[1020px] pb-[8px] px-[20px] text-[26px] font-bold text-center mb-[5px] mt-[40px] relative">
         조회 급상승, 인기템
+        <p className="w-[100px] h-[17px] flex gap-1 text-[#666] text-sm absolute right-[32px] top-[15px] font-normal cursor-pointer">
+          <img src={refresh} alt="refresh" />
+          업데이트
+        </p>
         <div className="custom-dots-container absolute right-0 top-3">
           {Array.from({ length: 2 }).map((_, i) => customPaging(i))}
         </div>
       </h1>
+
       <div className="w-[1020px] h-[236px] border-y flex flex-row">
         <Slider ref={sliderWrapper} {...settingsWrapper}>
           <div>
